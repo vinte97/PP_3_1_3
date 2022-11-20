@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head th:insert="~{template :: head}"> </head>
+<body>
+<div th:insert="~{template :: header}"></div>
+<div class="text-center mb-3">
+    <p class="text-left"><b>Please sign in</b></p>
+    <form>
+        <div class="form-outline mb-4">
+            <input type="email" id="form2Example1" class="form-control" />
+            <label class="form-label" for="form2Example1">Email address</label>
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <input type="password" id="form2Example2" class="form-control" />
+            <label class="form-label" for="form2Example2">Password</label>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+    </form>
+</div>
+
+
+</body>
+</html>
